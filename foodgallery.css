@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Nerko+One&family=Rubik+Distressed&display=swap');
+.parent{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: gray; */
+    
+}
+.col{
+    height: 685px;
+    width: 385px;
+    
+    
+}
+img{
+    height: 399px;
+    width: 301px;
+    box-shadow: 7px 5px rgb(255, 2, 2);
+    border-radius: 40px;
+}
+p{
+    font-size:x-large;
+    font-family: 'Anton', sans-serif;
+}
+button{
+    color: rgb(255, 0, 0);
+    font-size:xx-large;
+    top: 600px;
+    border-radius: 10px;
+    margin-left: 60px;
+    
+}
+span{
+    color: rgb(196, 92, 92);
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+
+body{
+    background-image: url("./image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button:hover{
+    background-color: rgb(184, 133, 133);
+
+}
